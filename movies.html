@@ -1,0 +1,198 @@
+<!doctype html>
+
+<!-- this is the begining of the html the browser will process -->
+
+<html>
+
+<!-- information used by the browser -->
+
+<head>
+
+  <meta charset="utf-8">
+
+  <!--
+      displayed anywhere the title is used
+      for the browser, search engines, ect.
+  -->
+
+  <title>inside out - Branodn Heck - movies</title>
+
+  <!--
+      used to display information about the
+      page by search engines and other sites
+      looking at out page.
+  -->
+
+  <meta name="description" content="inside out is a class project that we use to learn html." />
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<!-- content displayed in the browser window -->
+
+<body>
+
+  <header>
+
+    <h1><a href="index.html">inside out - movies</a></h1>
+
+    <h2>continously falling forward in the light...</h2>
+
+    <nav>
+      <ul>
+        <li><a href="love.html">love</a>
+          <ul>
+            <li><a href="things.html">things</a>
+
+              <ul>
+                <li><a href="music.html">music</a></li>
+                <li><a href="movies.html">movies</a></li>
+                <li><a href="books.html">books</a></li>
+                <li><a href="websites.html">websites</a></li>
+              </ul>
+
+            </li>
+            <li><a href="people.html">people</a>
+
+              <ul>
+                <li><a href="family.html">family</a></li>
+                <li><a href="friends.html">friends</a></li>
+                <li><a href="others.html">others</a></li>
+              </ul>
+
+            </li>
+          </ul>
+
+        </li>
+
+        <li><a href="who.html">who</a></li>
+        <ul>
+          <li><a href="i.html">i</a></li>
+          <ul>
+            <li><a href="was_then.html">was then</a></li>
+            <li><a href="am_now.html">am now</a></li>
+            <li><a href="will_be.html">will be</a></li>
+          </ul>
+        </ul>
+
+        <li><a href="challenges.html">challenges</a></li>
+
+        <ul>
+          <li><a href="behind_me.html">behind me</a></li>
+          <li><a href="ahead_of_me.html">ahead of me</a></li>
+        </ul>
+
+        <li><a href="you.html">you</a></li>
+
+        <ul>
+          <li><a href="profile.html">profile</a></li>
+          <li><a href="settings.html">settings</a></li>
+        </ul>
+
+      </ul>
+    </nav>
+
+  </header>
+
+  <section>
+    <div id="mainScreen">
+      <iframe id="movieFrame" src="https://www.youtube.com/embed/Q0CbN8sfihY" frameborder="0" allowfullscreen>
+        Your browser currently does not support iframes. Please contact the website administrator if you believe this is happening in error.
+      </iframe>
+    </div>
+  </section>
+  <section>
+    <div id="cardsWrapper">
+      <div class="card" onClick="changeVideo('EvwH80AvtAg')">
+        <div class="cardImage" style="background-image: url(images/ripd.jpg);"></div>
+        <div class="cardInfo">
+          <h4>RIPD</h4>
+          <div class="cardInfoText">
+            <p>R.I.P.D. is a 2013 American science fantasy action comedy film starring Jeff Bridges and Ryan Reynolds. Robert Schwentke directed the film based on a screenplay adapted from the comic book Rest in Peace Department by Peter M. Lenkov.
+              The film also stars Kevin Bacon, Mary-Louise Parker, Stéphanie Szostak, and Marisa Miller.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card" onClick="changeVideo('IC_lnyn2R2Q')">
+        <div class="cardImage" style="background-image: url(images/the_1517_to_paris.jpg);"></div>
+        <div class="cardInfo">
+          <h4>The 15:17 to Paris</h4>
+          <div class="cardInfoText">
+            <p>The 15:17 to Paris is a 2018 American biographical drama film produced and directed by Clint Eastwood and written by Dorothy Blyskal, based on the autobiography The 15:17 to Paris: The True Story of a Terrorist, a Train, and Three
+              American Heroes by Jeffrey E. Stern, Spencer Stone, Anthony Sadler, and Alek Skarlatos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card" onClick="changeVideo('cSp1dM2Vj48')">
+        <div class="cardImage" style="background-image: url(images/ready_player_one.jpg);"></div>
+        <div class="cardInfo">
+          <h4>Ready Player One</h4>
+          <div class="cardInfoText">
+            <p>Ready Player One premiered at South by Southwest on March 11, 2018, was theatrically released by Warner Bros. Pictures in the United States on March 29, 2018, in 2D, Real D 3D, IMAX and IMAX 3D. It grossed $582 million worldwide,
+              making it the eighth-highest-grossing film of 2018. The film received generally positive reviews, critics praised its visuals, brisk pacing, and Rylance's performance.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card" onClick="changeVideo('6ZfuNTqbHE8')">
+        <div class="cardImage" style="background-image: url(images/avengers_infinity_war.jpg);"></div>
+        <div class="cardInfo">
+          <h4>Avengers: Infinty War</h4>
+          <div class="cardInfoText">
+            <p>Avengers: Infinity War held its world premiere on April 23, 2018 in Los Angeles and was released in the United States on April 27, 2018, in IMAX and 3D. The film received praise for the performances of the cast (particularly Brolin's)
+              and the emotional weight of the story, as well as the visual effects and action sequences.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card" onClick="changeVideo('T7R7gn6_M7k')">
+        <div class="cardImage" style="background-image: url(images/black_panther.jpg);"></div>
+        <div class="cardInfo">
+          <h4>Black Panther</h4>
+          <div class="cardInfoText">
+            <p>Black Panther premiered in Los Angeles on January 29, 2018, and was released theatrically in the United States on February 16, 2018, in 2D, 3D, IMAX and other premium large formats. The film received praise from critics for its
+              direction, screenplay, acting, production and costume design, and soundtrack, though the computer-generated effects received some criticism.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card" onClick="changeVideo('Q0CbN8sfihY')">
+        <div class="cardImage" style="background-image: url(images/star_wars_the_last_jedi.jpg);"></div>
+        <div class="cardInfo">
+          <h4>Star Wars The Last Jedi</h4>
+          <div class="cardInfoText">
+            <p>The Last Jedi is part of a new trilogy of films announced after Disney's acquisition of Lucasfilm in October 2012. It was produced by Lucasfilm President Kathleen Kennedy and Ram Bergman, with Force Awakens director J. J. Abrams as an
+              executive producer. John Williams, composer for the previous films, returned to compose the score.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="clear: both;"></div>
+
+  </section>
+
+  <footer>
+
+    <h4>this is the footer</h4>
+    <p>we place redudant information here</p>
+
+    <div id="footerTagLine">
+      I am 7 inches left of normal
+    </div>
+
+  </footer>
+
+  <script>
+    function changeVideo(vid) {
+      document.getElementById('movieFrame').src =
+        'https://www.youtube.com/embed/' + vid;
+      document.getElementById('movieFrame').scrollintoview) {
+      behavior: 'smooth'
+    }
+    }
+  </script>
+
+
+</body>
+
+</html>
