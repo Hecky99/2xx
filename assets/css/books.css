@@ -138,32 +138,32 @@
 }
 */
 .boundaries {
-  background-image: url('../../images/books/boundaries.jpg');
+  background-image: url('../images/books/boundaries.jpg');
   background-size: 67%;
 }
 
 .the_maze_runner {
-  background-image: url('../../images/books/the_maze_runner.jpg');
+  background-image: url('../images/books/the_maze_runner.jpg');
   background-size: 67%;
 }
 
 .the_scorch_trials {
-  background-image: url('../../images/books/the_scorch_trials.jpg');
+  background-image: url('../images/books/the_scorch_trials.jpg');
   background-size: 67%;
 }
 
 .the_death_cure {
-  background-image: url('../../images/books/the_death_cure.jpg');
+  background-image: url('../images/books/the_death_cure.jpg');
   background-size: 67%;
 }
 
 .the_hunger_games {
-  background-image: url('../../images/books/the_hunger_games.jpg');
+  background-image: url('../images/books/the_hunger_games.jpg');
   background-size: 67%;
 }
 
 .catching_fire {
-  background-image: url('../../images/books/catching_fire.jpg');
+  background-image: url('../images/books/catching_fire.jpg');
   background-size: 67%;
 }
 
