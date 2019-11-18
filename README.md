@@ -3,6 +3,9 @@ php/mysql to the inside-out-project
 
 https://2xx.brandoncheck.com/
 
+GitHub Repo Site:
+https://hecky99.github.io/2xx/
+
 Version 200.0
 -pulled files from clients HTML site and uploaded to development server
 -updated title tag and header title with PHP variable
