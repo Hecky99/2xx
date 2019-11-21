@@ -248,3 +248,9 @@ table tr:hover td {
   width: 100%;
   text-align: right;
 }
+
+
+.copyright {
+  font-size: 0.75em;
+  padding: 10px;
+}

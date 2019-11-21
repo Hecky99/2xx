@@ -7,6 +7,8 @@
     I am 7 inches left of normal
 </div>
 
+<div class="copyright">iop project - Version <?php echo VERSION; ?> | &copy; 1999 - <?php echo date('Y'); ?> Brandon Heck</div>
+
 </footer>
 
 </body>
