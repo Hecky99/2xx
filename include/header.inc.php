@@ -1,7 +1,7 @@
 <?php 
 
     //Pulls data elements used through out the entier website
-    require_once 'menu.data.php';
+    require_once 'content.data.php';
 
     //Pulls functions used through out the entier website
     require_once 'functions.inc.php';
@@ -69,7 +69,7 @@
 
 
         <nav>
-            <?php echo menuBuilder($menuItem); ?>
+            <?php echo menuBuilder($content['pages']); ?>
         </nav>
 
 

@@ -1,18 +1,20 @@
 <?php
 
-        function menuBuilder ( $obj ) {
-
-            echo('<ul>');
-
-            foreach ( $obj as $key => $vaule ) {
-
-                echo( '<li><a href="' . $value[ 'MenuLink' ]. '">' . $vaule[ 'MenuName' ] . '</a></li>' );
-            
+function menuBuilder( $obj ) {
+     $menRtn = '<ul>';
+     foreach ( $obj as $key => $value ) {
+        if(basename($value[ 'pageLink' ],'.html') != 'home'){
+            $menRtn .= '<li>';
+            $menRtn .= '<a href="index.php?pg=' . basename($value[ 'pageLink' ],'.html') . '">' . $value[ 'pageName' ] . '</a>';
+            if ( is_array( $value[ 'childPages' ] ) ) {
+                 $menRtn .= ( menuBuilder( $value[ 'childPages' ] ) );
             }
-
-            echo('</ul>');
-
+            $menRtn .= '</li>';
         }
+     };
+     $menRtn .= '</ul>';
+     return $menRtn;
+}
 
 
 
