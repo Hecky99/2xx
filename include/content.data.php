@@ -1,5 +1,5 @@
 <?php
-$content = array(
+ $content = array(
      'pages' => array(
           array(
                'pageName' => 'home',
