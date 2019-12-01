@@ -75,3 +75,7 @@ Version 204.0
                          - assets/js/html5shiv.min.js
                          - assets/js/jquery-1.11.3.min.js
                          - assets/js/respond.min.js
+
+Version 205.0 
+               - added config.php
+            
